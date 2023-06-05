@@ -1,0 +1,111 @@
+:root {
+    --principal-color: #2196f3;
+    --font-color: #212121;
+    --description-color: #757575;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--font-color);
+}
+.button {
+    border-radius: 4px;
+    background-color: #f5f4fa;
+    border-style: none;
+}
+.button:hover {
+    background-color: var(--principal-color);
+    cursor: pointer;
+}
+.name {
+    color: var(--principal-color);
+    font-family:'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.17;
+    text-decoration: none;
+}
+.links a {
+    color: var(--font-color);
+    font-family: 'Roboto' , sans-serif;
+    font-size: 14px;
+    line-height: 1.17;
+    text-decoration: none;
+    list-style-type: none;
+}
+.links a:visited{
+    color: var(--font-color);
+}   
+.links a:hover {
+    color: var(--principal-color);
+}
+.header-contact {
+    color: #757575;
+}
+.header-contact:hover {
+    color: var(--principal-color);
+}
+.principal-title {
+    background-color: #2f303a;
+}
+.principal-title > h1 {
+    color: #ffffff;
+    font-size: 44px;
+    font-weight: 900;
+}
+.proceeds h3 {
+    font-size: 14px;
+    line-height: 1.17;
+}
+.proceeds p {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+}
+.subtitle {
+    font-size: 36px;
+    line-height: 1.17;
+}
+.team h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.17;
+}
+.team p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+.portafolio-section > li {
+    width: 370px;
+    height: 404px;
+    background-color: #ffffff;
+    border: 1px solid #eeeeee; 
+}
+.portafolio-section > li:hover {
+    cursor: pointer;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);;
+} 
+.portafolio-section h3 {
+    font-size: 18px;
+    line-height: 2;
+}
+.portafolio-section p{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--description-color);
+    line-height: 1.87;
+}
+.footer {
+    background-color: #2f303a
+}
+.contact-footer a{
+    color: rgba(255,255,255, 0.6);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+}
+.contact-footer [class="adress"] {
+    color: #ffffff;
+}
+.contact-footer a:hover {
+    color: var(--principal-color);
+}
